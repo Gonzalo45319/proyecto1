@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/fondo pantalla.jpg");
+   border-bottom: black;
+   
+}
+
+/* Colores usando nombres*/
+.t1 {
+    color: rgb(255, 251, 0);
+    font-size: 5.5em;
+}
+/* RGB (rojo, verde, azul)*/
+.t2 {
+    background-color: rgb(226, 43, 43);
+    width: 200px;
+}
+
+/* Hexadecimal 00 - ff (0 - 255) */
+/* 0-f (0 - 15) 4096 colores */
+.t3 {
+    color: #ff0;
+    background-color: #0000ff;
+    width: 95%;
+    height: 25vh;
+}
+
+/* HSL (matiz, saturacion y luminosidad) */
+/* matiz grado 0-360
+   saturacion: 0% - 100% 
+   luminosidad: 0% - 100% */
+
+.t4 {
+    background-color: hsl(270,50%,50%);
+    width: 75vmax;
+}
+
+.t5 {
+   background-color: #0000ff;
+}
